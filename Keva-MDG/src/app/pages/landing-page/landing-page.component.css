@@ -1,0 +1,197 @@
+
+
+
+    .error{
+        text-align: center;
+        font-family: inherit;
+        font-size: 12px;
+        margin-top: calc(359px/2 - 6px);
+        /* margin: 50% 0; */
+    }
+    .newsflash{
+        white-space: nowrap;
+        background: orangered;
+    }
+    .errornew{
+        text-align: center;
+        font-family: inherit;
+        font-size: 12px;
+        margin-top: calc(196px/2 - 6px);
+    }
+    .left-content .news .news-head figure, .left-content .news .news-head figure:after {
+      background: none;
+    }
+    .left-content .news, .left-content .announcements, .left-content .events {
+      /* min-height: 393px !important; */
+      /* min-height: 359px !important; */
+      min-height: 420px !important;
+      padding: 10px 0 30px;
+    }
+    .right-content .calender-sec {
+      margin-top: 15px;
+      padding:26px 10px 25px !important;
+    }
+    
+.holiday-events{
+	border: none;
+    background: #005181;
+    color: #fff;
+    width: 100%;
+    padding: 7px;
+	margin-bottom: 10px;
+	border-radius: 2PX;
+}
+.left-content .news .news-head figure{
+  display: inline-block;
+}
+.left-content .news .news-des {
+  max-height: 350px !important;
+  overflow-y: hidden;
+  min-height: 350px !important;
+}
+.left-content .news .news-des:hover {
+  overflow-y: scroll;
+}
+.well-head figure img{
+  max-width: 35px;
+  position: relative;
+  MARGIN-RIGHT: 6PX;
+  height: 30px;
+}
+.well-head figure, .well-head h1{
+  display: inline-block;
+}
+::ng-deep header {
+  display: block;
+ }
+
+
+
+.landingpage-bg{background: #eee;}
+.news .news-des .news-content p{text-align: left;}
+
+.news-head img, well-head img{
+  height:35px;
+  width:100%;
+}
+
+::ng-deep .widgetHeaderTooltip{
+  width: fit-content;
+  background: linear-gradient(60deg,#085887,#60a7d0);
+  color: white;
+  font-size: 16px;
+}
+.news-content h2 {
+  font-family: 'Montserrat-SemiBold';
+  font-size: 13px;
+  color: #333;
+}
+.news-content h4{
+  font-family: 'Montserrat-Light';
+    font-size: 10px;
+    color: #006699;
+    padding: 6px 0px 6px 0px;
+}
+.news-content p {
+  line-height: 1.5em;
+  height: 3em;
+  overflow: hidden;
+  font-family: 'Montserrat-Light';
+  font-size: 12px;
+  color: #333;
+  margin: 0 0 5px;
+  display: -webkit-box;
+  /* min-width: 200px; */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  text-align: left;
+}
+.newsitem  .news-img{  float: left;
+/* width: 103px; */
+width: 50px;
+margin-right: 15px;
+}
+.news-content .news-img {
+  width: 100%;
+  float: left;
+  padding: 10px 10px 0px;
+}
+.newsitem.last{
+  width: 100%;
+  float: left;
+  padding: 10px 10px 0px;
+}
+.newsitem .news-content span{
+  font-family: 'Montserrat-Regular';
+  font-size: 12px;
+  display: inline-block;
+  color: #fff;
+  cursor: pointer;
+  position: relative;
+  transition: 0.5s;
+  background: #005181;
+  padding: 3px 10px 3px 10px;
+  border-radius: 12px;
+  min-width: 55px;
+  text-align: center;
+}
+.newsitem .news-content  span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 2px;
+  right: -20px;
+  left: 30px;
+  transition: 0.3s;
+}
+.left-content .news .news-des::-webkit-scrollbar-track
+{
+  background-color: transparent;
+  border-radius: 3px;
+}
+
+.left-content .news .news-des::-webkit-scrollbar
+{
+	width: 4px;
+	background-color: #F5F5F5;
+}
+
+.left-content .news .news-des::-webkit-scrollbar-thumb
+{
+  border-radius: 3px;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgb(0, 81, 129)), color-stop(100%, rgb(147, 195, 57)));
+}
+.news-des{
+  min-height: 135px !important;
+  max-height: 135px !important;
+  overflow-y: hidden;
+}
+.news-des:hover{
+  overflow-y: scroll;
+}
+.news-des::-webkit-scrollbar-track
+{
+  background-color: transparent;
+  border-radius: 3px;
+}
+
+.news-des::-webkit-scrollbar
+{
+	width: 4px;
+	background-color: #F5F5F5;
+}
+.news-des::-webkit-scrollbar-thumb
+{
+  border-radius: 3px;
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, rgb(0, 81, 129)), color-stop(100%, rgb(147, 195, 57)));
+}
+
+.left-content .news, .new-keva{
+  background: #005181 !important;
+}
+.news-head h1, .news-content h2, .well-head h1, .news-content h4, .news-content p{color: #fff;}
+.newsitem .news-content span{    background: #93c339 !important;}
+.right-content .new-keva {
+  padding: 10px 10px 30px 10px !important;}
